@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: wheat;
+}
+
+.header {
+    font-size: 35px;
+    text-align: center;
+}
+
+#array {
+    background-color: wheat;
+    height: 305px;
+    width: auto;
+    /* border: 1px solid black; */
+    padding-left: 2%;
+    margin: auto;
+    position: relative;
+    margin-top: 64px;
+}
+
+.block {
+    border: 1px solid black;
+    /* width: 6.3vw; */
+    background-color: orange;
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+}
+
+.block_id {
+    position: absolute;
+    color: brown;
+    margin-top: -20px;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+}
